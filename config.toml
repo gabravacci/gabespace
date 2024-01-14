@@ -1,5 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Gabe's Space"
-theme = "lugo"
 pluralizelisttitles = false
