@@ -6,5 +6,6 @@ tags: ['electronics', 'university', 'robotics']
 ---
 sdlfjkl
 
-{{< img src="{{ .Site.BaseURL }}/firstprototype.jpg" >}}
+{{< img src="https://gabravacci.github.io/gabespace/firstprototype.jpg" >}}
+
 
