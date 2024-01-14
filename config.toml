@@ -1,4 +1,3 @@
-baseURL = "https://gabravacci.github.io/gabespace/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Gabe's Space"
-pluralizelisttitles = false
+title = "My New Hugo Site"

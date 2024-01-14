@@ -1,18 +1,12 @@
 body {
-	font-family: monospace ;
-	background: #ffffff ;
-	color: #000000 ;
-	font-size: 22px ;
+	font-family: sans-serif ;
+	background: #110000 ;
+	color: #ccc ;
 }
 
 main {
 	max-width: 800px ;
 	margin: auto ;
-}
-
-ul {
-	text-align: center ;
-	list-style-type: none ;
 }
 
 img {
@@ -26,14 +20,6 @@ header h1 {
 footer {
 	text-align: center ;
 	clear: both ;
-}
-
-a:link {
-	color: #ff2a59 ;
-}
-
-a:visited {
-	color: #a000e4 ;
 }
 
 /* For TAGLIST.HTML */
