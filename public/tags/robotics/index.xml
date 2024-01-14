@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>My New Hugo Site</title>
+	<link>http://localhost:1313/tags/robotics/</link>
+	<description>Recent content in robotics on My New Hugo Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Sat, 13 Jan 2024 13:37:58 -0800</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Highlights</title>
+		<link>http://localhost:1313/highlights/</link>
+		<pubDate>Sun, 14 Jan 2024 12:13:13 -0800</pubDate>
+		
+		<guid>http://localhost:1313/highlights/</guid>
+		<description>&lt;p&gt;I strongly believe in keeping things simple, which is why this site is so barebones in the first place! There&amp;rsquo;s not even a search function, and I prefer it that way. I find it more interesting to just have this page link to stuff that I &lt;em&gt;want&lt;/em&gt; easily accessible, and the  rest is found through hyperlinks and tags.&lt;/p&gt;
+&lt;h1 id=&#34;evergreen&#34;&gt;Evergreen&lt;/h1&gt;
+&lt;p&gt;Here&amp;rsquo;s some stuff that may not be relevant right now, but is always a good starting point:&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Robot Summer</title>
+		<link>http://localhost:1313/robotsummer/</link>
+		<pubDate>Sat, 13 Jan 2024 13:37:58 -0800</pubDate>
+		
+		<guid>http://localhost:1313/robotsummer/</guid>
+		<description></description>
+	</item>
+	
+	</channel>
+</rss>
