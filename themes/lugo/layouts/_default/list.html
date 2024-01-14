@@ -1,0 +1,19 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+{{ define "main" -}}
+{{ .Content }}
+<ul>
+{{- range.Pages.ByWeight }}
+<li>
+	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	{{- if .Param "authorsinlist" }}
+	{{ with .Params.authors }}
+		by 
+		{{ delimit . ", " " and " }}
+	{{end}}
+	{{ end -}}
+</li>
+{{- end }}
+</ul>
+{{- end }}

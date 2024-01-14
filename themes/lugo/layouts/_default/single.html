@@ -1,0 +1,4 @@
+{{ define "title" -}}
+{{ .Title }}
+{{ if .Params.math }}{{ partial "katex.html" . }}{{ end }}
+{{- end }}
