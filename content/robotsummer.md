@@ -6,5 +6,5 @@ tags: ['electronics', 'university', 'robotics']
 ---
 sdlfjkl
 
-![img](/firstprototype.jpg)
+![img](firstprototype.jpg)
 
