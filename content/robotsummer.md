@@ -5,4 +5,6 @@ draft: false
 tags: ['electronics', 'university', 'robotics']
 ---
 sdlfjkl
-![img](/firstprototype.jpg)
+
+{{< img src="{{ .Site.BaseURL }}/firstprototype.jpg" >}}
+
