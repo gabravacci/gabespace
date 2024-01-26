@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto", serif;
+	font-family: roboto-slab-light;
 	background: #ffffff ;
 	color: #000000 ;
 	font-size: 22px ;
@@ -44,7 +44,7 @@ footer {
 }
 
 .roboto-slab-light {
-	font-family: "Roboto", serif;
+	font-family: "Roboto", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 100;
 	font-style: normal;
