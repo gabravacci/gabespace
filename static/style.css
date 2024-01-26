@@ -1,5 +1,5 @@
 body {
-	font-family: monospace ;
+	font-family: "Roboto", serif;
 	background: #ffffff ;
 	color: #000000 ;
 	font-size: 22px ;
@@ -41,6 +41,13 @@ footer {
 .taglist {
 	text-align: center ;
 	clear: both ;
+}
+
+.roboto-slab-light {
+	font-family: "Roboto", serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
 }
 
 /* For NEXTPREV.HTML */
