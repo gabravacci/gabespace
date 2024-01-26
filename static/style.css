@@ -2,7 +2,7 @@ body {
 	font-family: "Roboto Mono";
 	background: #ffffff ;
 	color: #000000 ;
-	font-size: 22px ;
+	font-size: 18px ;
 }
 
 main {
@@ -17,7 +17,7 @@ ul {
 
 
 a:link {
-	color: #ff2765 ;
+	color: #5a6ded ;
 }
 
 a:visited {
