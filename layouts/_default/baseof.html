@@ -2,13 +2,14 @@
 <html lang="{{ .Site.Language }}">
 <head>
 	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
-	<link rel="canonical" href="{{ .Site.BaseURL }}">
+	<link rel="text" href="{{ .Site.BaseURL }}">
 	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href="https://gabravacci.github.io/gabespace/style.css">
 	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
 	{{ end -}}
 	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
 	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
+	{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 	{{ end -}}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
@@ -18,7 +19,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 <footer>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+	<a href="{{ .Site.BaseURL }}">gabespace</a>
 </footer>
 <body>
 {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
@@ -28,15 +29,16 @@
 {{ block "main" . }}
 {{ .Content }}
 {{ end }}
-<p>
+<!-- <p>
 {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
 {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 </p>
 {{ partial "nextprev.html" . -}}
-{{ partial "taglist.html" . }}
+{{ partial "taglist.html" . }} -->
 </article>
 </main>
 {{ block "footer" . }}
 {{ end }}
 </body>
+{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
 </html>
