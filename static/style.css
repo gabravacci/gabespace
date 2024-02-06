@@ -16,6 +16,17 @@ ul {
 	list-style-type: none ;
 }
 
+code {
+	background: #e7e7e7 ;
+	border-radius: 5px ;
+	font-family: "Courier" ;
+	font-weight: 600 ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	padding-top: 0px ;
+	padding-bottom: 0px ;
+}
+
 aside {
 	text-align: center ;
 	font-size: 10px ;
