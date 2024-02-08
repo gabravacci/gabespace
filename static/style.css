@@ -18,13 +18,15 @@ ul {
 
 code {
 	background: #e7e7e7 ;
+	color: #ff2a59 ;
 	border-radius: 5px ;
-	font-family: "Courier" ;
-	font-weight: 600 ;
-	padding-left: 3px ;
-	padding-right: 3px ;
-	padding-top: 0px ;
-	padding-bottom: 0px ;
+/* 	font-family: "Courier" ; */
+	font-weight: 500 ;
+	font-size: 14px ;
+	padding-left: 5px ;
+	padding-right: 5px ;
+	padding-top: 1px ;
+	padding-bottom: 1px ;
 }
 
 aside {
