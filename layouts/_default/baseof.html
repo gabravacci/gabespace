@@ -36,6 +36,10 @@
 </p>
 {{ partial "nextprev.html" . -}}
 {{ partial "taglist.html" . }} -->
+<p>
+{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
+</p>
+{{ partial "taglist.html" . }} 
 </article>
 </main>
 {{ block "footer" . }}

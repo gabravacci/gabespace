@@ -11,4 +11,6 @@ I strongly believe in keeping things simple, which is why this site is so barebo
 
 Here's some stuff that may not be relevant right now, but is always a good starting point:
 
+1. [Robot Summer](https://gabravacci.github.io/gabespace/robotsummer)
+
 
