@@ -36,11 +36,13 @@ aside {
 
 
 a:link {
-	color: #5a6ded ;
+	/* color: #5a6ded ; */
+	color: #4169e1 ; /* royal blue */
 }
 
 a:visited {
-	color: #a019ff ;
+	/* color: #a019ff ; */
+	color: #6495ed ; /* corn flower blue */
 }
 
 img {
